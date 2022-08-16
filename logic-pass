@@ -1,1 +1,51 @@
+# Q1/Write a method that will remove any given character from a String?
+name=["ali","ahmed"]
+name.remove("ahmed")
+print(name)
+
+out put:['ibrahim']
+-------------------------------------------------------------------------------------------------------
+#Q2/Write a program to find all prime numbers up to a given range of numbers
+def numbers(num):
+   for i in range(2,num+1):
+    x=0
+    for j in range(2,i):
+       if i%j!=0:
+         x+=1
+    if x==i-2:
+     print(f"the prime number is {i}")
+      
+numbers(100)
+
+output:
+
+the prime number is 3
+the prime number is 5
+the prime number is 7
+the prime number is 11
+the prime number is 13
+the prime number is 17
+the prime number is 19
+the prime number is 23
+the prime number is 29
+the prime number is 31
+the prime number is 37
+the prime number is 41
+the prime number is 43
+the prime number is 47
+the prime number is 53
+the prime number is 59
+the prime number is 61
+the prime number is 67
+the prime number is 71
+the prime number is 73
+the prime number is 79
+the prime number is 83
+the prime number is 89
+the prime number is 97
+-------------------------------------------------------------------------------------------------
+ #Q3/write a function that count how many the given character repeated in a given string?
+x="aliabd"
+print(x.count("a"))
+ output:2
 
